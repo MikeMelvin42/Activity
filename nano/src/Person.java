@@ -2,8 +2,7 @@ public class Person {
 
     private String lastName;
     private String firstName;
-
-    private int age;
+    
 
     public Person(String lastname, String firstName){
         this.firstName = firstName;
