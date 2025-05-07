@@ -5,10 +5,9 @@ public class Person {
 
     private int age;
 
-    public Person(String lastname, String firstName, int age){
+    public Person(String lastname, String firstName){
         this.firstName = firstName;
         this.lastName = lastname;
-        this.age = age;
     }
 
     public String getLastName() {

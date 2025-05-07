@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Breed: " + pet.getBreed());
         System.out.println("Age: " + pet.getAge());
 
-        Person person = new Person("Cruz", "Juan", 23);
+        Person person = new Person("Cruz", "Juan");
 
         System.out.println(person.getLastName() + ", " + person.getFirstName());
 
