@@ -1,10 +1,11 @@
 public class Pet {
-    private String name, breed;
+    private String name, breed, color;
     private int age;
 
-    public Pet(String name, String breed, int age) {
+    public Pet(String name, String breed, String color, int age) {
         this.name = name;
         this.breed = breed;
+        this.color = color;
         this.age = age;
     }
 
@@ -24,6 +25,14 @@ public class Pet {
         this.breed = breed;
     }
 
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public int getAge() {
         return age;
     }
@@ -31,6 +40,4 @@ public class Pet {
     public void setAge(int age) {
         this.age = age;
     }
-
-
 }
