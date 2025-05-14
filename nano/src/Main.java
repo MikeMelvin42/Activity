@@ -4,6 +4,7 @@ public class Main {
 
         System.out.println("Hello world!");
 
+        Person p = new Person("Mych", "Evangelio");
 
         System.out.println();
         System.out.println("Your Pet");
@@ -11,6 +12,7 @@ public class Main {
         System.out.println("Name: " + pet.getName());
         System.out.println("Breed: " + pet.getBreed());
         System.out.println("Age: " + pet.getAge());
+
 
         Person person = new Person("Cruz", "Juan");
 
