@@ -2,6 +2,7 @@ public class Person {
 
     private String lastName;
     private String firstName;
+    private String middleName;
     
 
     public Person(String lastname, String firstName){
