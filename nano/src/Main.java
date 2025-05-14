@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Hello world!");
 
         Person p = new Person("Mych", "Evangelio");
+        Person p1 = new Person("Linds", "Paypon");
 
         System.out.println();
         System.out.println("Your Pet");
